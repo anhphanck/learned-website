@@ -1,0 +1,98 @@
+            .uber {
+                background-color: black;
+                color:aliceblue;
+                cursor: pointer;
+                transition: background-color 0.15s;
+                padding-top: 8px;
+                padding-bottom: 8px;
+                padding-left: 10px;
+                padding-right:10px;
+                vertical-align:top;
+                margin-left: 20px;
+            }
+            .uber:hover{
+                background-color: black;
+                opacity: 0.8;
+                width:150px;
+                height: 80px;
+            }
+            .uber:active{
+                background-color: black;
+                opacity: 0.6;
+            }
+            .Amazon{
+                background-color: rgb(255,216,20);
+                width:150px;
+                cursor: pointer;
+                margin: size 80px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right:10px;
+                border-radius: 20px;
+                margin-left: 20px;
+                border-style:solid;
+                border-color:yellow;
+                transition: background-color 0.15s;
+                vertical-align:top;
+                
+            }
+            .Amazon:hover{
+                background-color: black;
+                color:yellow;
+                border:none;
+                
+            
+            }
+            .Amazon:active{
+                opacity:0.7;
+            }
+            .GitHub{
+                background-color: rgb(46,164,79);
+                padding-top: 10px;
+                padding-bottom: 10px;
+                padding-left: 10px;
+                padding-right:10px;
+                cursor: pointer;
+                border: size 4px;
+                border-style: none;
+                margin-left: 20px;
+                border-radius: 4px;
+                font-size: 15px;
+                color:white;
+                transition : box-shadow 0.15s;
+                vertical-align:top;
+            }
+            .GitHub:hover{
+                box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+                opacity:0.8;
+            }
+            .GitHub:active{
+                opacity:0.6;
+            
+            }
+            .A{
+                background-color:rgb(12, 185, 205);
+                display:block;
+                height:50px;
+                width:50px;
+                margin:20px;
+                margin-left: 20px;
+                border-radius:solid ;
+                cursor: pointer;
+            
+            
+            }
+            .ytb{
+                background-color: rgb(37, 113, 212);
+                width:90px;
+                height: 40px;
+                cursor: pointer;
+                border-radius:  19px;
+                color:white;
+                margin-left:20px;
+                font-size: 15px;
+                border-style:none;
+                
+            
+            }

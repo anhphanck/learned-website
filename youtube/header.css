@@ -1,0 +1,155 @@
+
+.header{
+    display:flex;
+    height:70px;
+    flex-direction: row;
+    flex: 50px 1 60px;
+    justify-content: space-between;
+    
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    z-index: 100;
+    border-bottom: 1px solid;
+    background-color: #ffffff;
+    border-bottom-color:rgb(186, 181, 181)
+    
+    
+}
+.left-section{
+width:150px;
+display:flex;
+align-items: center;
+padding-left: 11px;
+
+
+
+}
+.middle-section{
+    flex:1;
+margin-right:35px;
+margin-left:70px;
+max-width: 500px;
+display:flex;
+align-items: center;
+}
+
+.right-section{
+    width:200px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.icon-menu{
+    height:24px;
+    margin-left:16.5px;
+
+
+}
+.icon-youtube{
+    height:20px;
+    margin-left:20px;
+}
+.icon-search{
+    position: relative;
+    height:25.7px;
+    border-style:solid;
+    border-width:1px;
+    border-color: rgb(215, 209, 209);
+    margin-top:0px;
+    margin-left:-1px;
+    cursor: pointer;
+    background-color: rgb(252, 248, 247);
+    padding: 2px 18px 9px 18px;
+    width:38px;
+    
+}
+.icon-search:hover{
+    background-color: rgb(216, 216, 216);
+    
+}
+.icon-search_bottom{
+    position: absolute;
+    margin-top:-1px;
+    padding-right:3px;
+    padding-left: 3px;
+    margin-left: -3px;
+    background-color: gray;
+    font-size:15px;
+    color:aliceblue;
+    opacity:0;
+    pointer-events:none;
+    
+    
+}
+.icon-search:hover .icon-search_bottom{
+    opacity:1;
+
+}
+
+.search{
+    height:35px;
+    border-color:rgb(219, 214, 214);
+    border-style: solid;
+    display:flex;
+    flex:1;
+    flex-shrink: 0;
+    font-size:16px;
+    padding-left:20px;
+    width:0;
+    border-radius: 2px;
+    border-width:1.5px;
+}
+.icon-micro_top{
+    position: relative;
+    cursor: pointer;
+}
+.icon-micro{
+    margin-top:3px;
+    height:25px;
+    margin-left: 20px;
+}
+.icon-micro_bottom{
+    position: absolute;
+    margin-top:8px;
+    padding-right:3px;
+    padding-left: 3px;
+    margin-left: 11px;
+    background-color: gray;
+    font-size:15px;
+    color:aliceblue;
+    opacity:0;
+    pointer-events:none;
+}
+.icon-micro_top:hover .icon-micro_bottom{
+    opacity:1;
+
+}
+
+.icon-upvideo{
+    height:25px;
+    margin-left:-5px;
+}
+.icon-many{
+    height:25px;
+}
+.icon-Notification{
+    height:25px;
+}
+.icon-img{
+    height:25px;
+    margin-right:20px;
+    border-radius: 200px;
+    margin-top:-3px;
+    
+}
+.left-menu{
+    position: fixed;
+    bottom:0;
+    top:80px;
+}
+
+
+
